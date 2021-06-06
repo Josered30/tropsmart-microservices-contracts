@@ -37,7 +37,6 @@
       <version>2.11.1</version>
     </dependency>
 
-
   </dependencies>
 
   <build>
@@ -84,7 +83,7 @@
           <version>3.0.0</version>
         </plugin>
       </plugins>
-    </pluginManagement>
+    </pluginManagement> 
   </build>
 
   <profiles>
@@ -99,4 +98,6 @@
       </distributionManagement>
     </profile>
   </profiles>
+
+  
 </project>
