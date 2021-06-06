@@ -4,8 +4,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.tropsmart</groupId>
-  <artifactId>microservices-contracts</artifactId>
-  <version>1.4</version>
+  <artifactId>tropsmart-microservices-contracts</artifactId>
+  <version>1.0</version>
 
   <name>microservices-contracts</name>
   <!-- FIXME change it to the project's website -->
@@ -85,6 +85,7 @@
       </plugins>
     </pluginManagement>
   </build>
+
 
   <distributionManagement>
     <repository>
