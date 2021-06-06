@@ -5,7 +5,7 @@
 
   <groupId>com.tropsmart</groupId>
   <artifactId>microservices-contracts</artifactId>
-  <version>1.3</version>
+  <version>1.4</version>
 
   <name>microservices-contracts</name>
   <!-- FIXME change it to the project's website -->
@@ -36,9 +36,6 @@
       <artifactId>jackson-databind</artifactId>
       <version>2.11.1</version>
     </dependency>
-
-    
-
 
 
   </dependencies>
@@ -90,11 +87,16 @@
     </pluginManagement>
   </build>
 
-  <distributionManagement>
-    <repository>
+  <profiles>
+    <profile>
       <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/josered30/tropsmart-microservices-contracts</url>
-    </repository>
-  </distributionManagement>
+      <distributionManagement>
+        <repository>
+          <id>github</id>
+          <name>GitHub Packages</name>
+          <url>https://maven.pkg.github.com/josered30/tropsmart-microservices-contracts</url>
+        </repository>
+      </distributionManagement>
+    </profile>
+  </profiles>
 </project>
